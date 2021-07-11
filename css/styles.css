@@ -1,0 +1,18 @@
+form {
+    margin: 0 auto;
+}
+
+.form-container {
+    background: linear-gradient(45deg, rgb(79, 70, 229) 50%, rgb(67, 56, 202));
+}
+
+.home-hero {
+    height: 100vh;
+    background: url(../img/family-mobile-bg.jpg) no-repeat center / cover;
+}
+
+@media screen and (min-width: 769px) {
+    .home-hero {
+        background: url(../img/home-hero-desktop.jpg) no-repeat center / cover;
+    }
+}
